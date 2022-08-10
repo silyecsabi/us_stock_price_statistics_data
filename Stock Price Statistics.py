@@ -206,7 +206,7 @@ ax[0].plot(x1, y2, color = 'c', label = 'Quarter Max High', linewidth = 0.5, lin
 
 ax[0].set_xlabel('Years')
 ax[0].set_ylabel('Prices')
-ax[0].set_title('Daily vs Quarter Maximum High')
+ax[0].set_title('Weekly vs Quarter Maximum High')
 ax[0].legend()
 
 
