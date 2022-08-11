@@ -52,7 +52,6 @@ df['Monthly Low'] = df[['Low']].resample('M', closed = 'left').max().resample('d
 df['Quarterly High'] = df[['High']].resample('Q', closed = 'left').max().resample('d').ffill()
 df['Quarterly Low'] = df[['Low']].resample('Q', closed = 'left').max().resample('d').ffill()
 
-# Form check
 
 df.to_csv('us_stock_price_indicators_statistics.csv')
 df.to_excel('us_stock_price_indicators_statistics.xlsx', sheet_name = 'Stock Price Statistics Data')
